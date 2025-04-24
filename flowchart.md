@@ -10,4 +10,3 @@ flowchart TD
     D --> F[Print result]
     E --> F
     F --> G[End]
-
