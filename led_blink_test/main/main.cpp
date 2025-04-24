@@ -11,12 +11,12 @@ extern "C" void app_main()
         case 0:
 
             /* code */
-            for (int i = 0; i < 1000; i++)
+            for (int i = 0; i < 100; i++)
             {
                 digitalWrite(BLINK_GPIO, HIGH);
-                delay(50);
+                delay(5);
                 digitalWrite(BLINK_GPIO, LOW);
-                delay(10);
+                delay(5);
             }
 
             break;
@@ -24,12 +24,12 @@ extern "C" void app_main()
         case 1:
 
             /* code */
-            for (int i = 0; i < 1000; i++)
+            for (int i = 0; i < 100; i++)
             {
                 digitalWrite(BLINK_GPIO, HIGH);
-                delay(10);
+                delay(7);
                 digitalWrite(BLINK_GPIO, LOW);
-                delay(50);
+                delay(7);
             }
 
             break;
@@ -37,12 +37,12 @@ extern "C" void app_main()
         case 2:
 
             /* code */
-            for (int i = 0; i < 1000; i++)
+            for (int i = 0; i < 100; i++)
             {
                 digitalWrite(BLINK_GPIO, HIGH);
-                delay(50);
+                delay(10);
                 digitalWrite(BLINK_GPIO, LOW);
-                delay(50);
+                delay(10);
             }
 
             break;
@@ -50,12 +50,12 @@ extern "C" void app_main()
         case 4:
 
             /* code */
-            for (int i = 0; i < 1000; i++)
+            for (int i = 0; i < 100; i++)
             {
                 digitalWrite(BLINK_GPIO, HIGH);
-                delay(100);
+                delay(15);
                 digitalWrite(BLINK_GPIO, LOW);
-                delay(10);
+                delay(15);
             }
 
             break;
@@ -63,12 +63,12 @@ extern "C" void app_main()
         case 5:
 
             /* code */
-            for (int i = 0; i < 1000; i++)
+            for (int i = 0; i < 100; i++)
             {
                 digitalWrite(BLINK_GPIO, HIGH);
-                delay(10);
+                delay(20);
                 digitalWrite(BLINK_GPIO, LOW);
-                delay(100);
+                delay(20);
             }
 
             break;
@@ -76,12 +76,12 @@ extern "C" void app_main()
         case 6:
 
             /* code */
-            for (int i = 0; i < 1000; i++)
+            for (int i = 0; i < 100; i++)
             {
                 digitalWrite(BLINK_GPIO, HIGH);
-                delay(100);
+                delay(25);
                 digitalWrite(BLINK_GPIO, LOW);
-                delay(100);
+                delay(25);
             }
 
             break;
@@ -89,12 +89,12 @@ extern "C" void app_main()
         case 7:
 
             /* code */
-            for (int i = 0; i < 1000; i++)
+            for (int i = 0; i < 100; i++)
             {
                 digitalWrite(BLINK_GPIO, HIGH);
-                delay(200);
+                delay(30);
                 digitalWrite(BLINK_GPIO, LOW);
-                delay(10);
+                delay(30);
             }
 
             break;
@@ -102,12 +102,12 @@ extern "C" void app_main()
         case 8:
 
             /* code */
-            for (int i = 0; i < 1000; i++)
+            for (int i = 0; i < 100; i++)
             {
                 digitalWrite(BLINK_GPIO, HIGH);
-                delay(10);
+                delay(35);
                 digitalWrite(BLINK_GPIO, LOW);
-                delay(200);
+                delay(35);
             }
 
             break;
@@ -115,12 +115,12 @@ extern "C" void app_main()
         case 9:
 
             /* code */
-            for (int i = 0; i < 1000; i++)
+            for (int i = 0; i < 100; i++)
             {
                 digitalWrite(BLINK_GPIO, HIGH);
-                delay(200);
+                delay(40);
                 digitalWrite(BLINK_GPIO, LOW);
-                delay(200);
+                delay(40);
             }
 
             break;
