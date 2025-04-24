@@ -1,8 +1,9 @@
+
 #flowchart TD
 
 ''' mermaid 
-flowchart TD start
-    A[start] --> B(go to shoping)
+flowchart TD
+    A[Christmas] -->|Get money| B(Go shopping)
     B --> C{Let me think}
     C -->|One| D[Laptop]
     C -->|Two| E[iPhone]
