@@ -4,6 +4,10 @@ extern "C" void app_main()
 {
     const gpio_num_t BLINK_GPIO = GPIO_NUM_2;
     pinMode(BLINK_GPIO, OUTPUT);
+
+while(1){
+
+
     for (int j = 0; j < 10; j++)
     {
         switch (j)
@@ -126,4 +130,5 @@ extern "C" void app_main()
             break;
         }
     }
+}
 }
