@@ -5,7 +5,7 @@ This protocol invented in 1999
 MQTT stands for Message Queuing Telemetry Transport  
 Example: youtube   
 this protocol is publisher subscriber base protocol    
-## 2 main things in this protocol    
+## Two main things in this protocol    
 -Topic: topic is the from of addresing that allows to mqtt client to share data. topic explian the structure if data     
 - massage or payload: this the data or massage which publish or subscribe client    
 
